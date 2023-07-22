@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Form from './Form';
+import Gallery from "./Gallery";
+import Person from "./Person";
+// import { useState } from "react";
+// import ToolBar from "./ToolBar";
 function App() {
+
+  // Testing Of State
+
+  // let data = 100;
+  // const [score, setScore] = useState(0);
+
+  // function increment() {
+  //   setScore(score + 1);
+  // }
+  // function increment3() {
+  //   setScore(score + 3);
+  // }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* <Form></Form> */}
+
+
+      {/* <ToolBar
+        onPlayMovie={() => alert("playing")}
+        onUploadImage={() => alert("Success")}
+      ></ToolBar> */}
+
+      {/* <button onClick={() => increment()}>+1</button>
+      <button
+        onClick={() => {
+          increment3();
+        }}
+      >
+        +3
+      </button>
+
+      <h1>Score : {score}</h1>
+      <h1>Data : {data}</h1> */}
+
+      {/* <Gallery></Gallery> */}
+
+      <Person></Person>
+
     </div>
   );
 }
